@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { Provider } from 'react-redux';
 import store from './store';
-import Swimlane from './';
-import DataEntryModal from './components/DataEntryModal';
+import Swimlane from './components/Swimlane';
+import DataEntryModal from './components/Dataentry';
 import BlockPreview from './components/BlockPreview';
 import Filter from './components/Filter';
 import { masterConfig } from './config';
