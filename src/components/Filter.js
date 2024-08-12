@@ -1,5 +1,5 @@
 import React from 'react';
-import { TextField, Button } from '@material-ui/core';
+import { TextField, Button } from '@chakra-ui/react';
 
 const Filter = ({ onFilter }) => {
   const [filter, setFilter] = React.useState('');

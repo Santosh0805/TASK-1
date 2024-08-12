@@ -1,5 +1,5 @@
 import React from 'react';
-import { Modal } from '@material-ui/core';
+import { Modal } from '@chakra-ui/react';
 
 const BlockPreview = ({ block, open, handleClose }) => (
   <Modal open={open} onClose={handleClose}>

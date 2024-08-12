@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Provider } from 'react-redux';
+import { ChakraProvider } from '@chakra-ui/react';
 import store from './store';
 import Swimlane from './components/Swimlane';
 import DataEntryModal from './components/Dataentry';
@@ -34,7 +34,7 @@ function App() {
   };
 
   return (
-    <Provider store={store}>
+    <ChakraProvider store={store}>
       <div className="App">
         <Filter onFilter={handleFilter} />
         <Swimlane
@@ -56,7 +56,7 @@ function App() {
           />
         )}
       </div>
-    </Provider>
+    </ChakraProvider>
   );
 }
 

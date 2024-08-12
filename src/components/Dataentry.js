@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Modal, Button, TextField } from '@material-ui/core';
+import { Modal, Button, TextField } from '@chakra-ui/react';
 
 const DataEntryModal = ({ open, handleClose, handleSave }) => {
   const [data, setData] = useState('');
