@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { ChakraProvider } from '@chakra-ui/react';
-import store from './store';
+import store from './Reducers/store';
 import Swimlane from './components/Swimlane';
 import DataEntryModal from './components/Dataentry';
 import BlockPreview from './components/BlockPreview';
