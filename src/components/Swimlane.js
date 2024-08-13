@@ -37,3 +37,4 @@ const Swimlane = ({ stages, blocks }) => (
 );
 
 export default Swimlane;
+

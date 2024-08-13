@@ -1,5 +1,6 @@
+// src/components/BlockPreview.js
 import React from 'react';
-import { Modal } from '@chakra-ui/react';
+import { Modal } from '@material-ui/core';
 
 const BlockPreview = ({ block, open, handleClose }) => (
   <Modal open={open} onClose={handleClose}>
@@ -17,3 +18,4 @@ const BlockPreview = ({ block, open, handleClose }) => (
 );
 
 export default BlockPreview;
+
