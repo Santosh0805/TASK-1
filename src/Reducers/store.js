@@ -1,5 +1,5 @@
 import { configureStore } from '@reduxjs/toolkit';
-import todoReducer from './index';
+import todoReducer from './todos';
 
 export const store = configureStore({
   reducer: {
@@ -8,3 +8,6 @@ export const store = configureStore({
 });
 
 export default store;
+
+
+
